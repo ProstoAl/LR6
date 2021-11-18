@@ -21,26 +21,26 @@
 ![image](https://user-images.githubusercontent.com/94538589/142440720-5387734c-1ce6-4603-bebf-12ca1e69d669.png)
 10. Загружаем ветку в удалённый репозиторий.</br>
 ![image](https://user-images.githubusercontent.com/94538589/142440887-6a105243-98c6-4a65-9679-a9a3f6dc9969.png)
-11. Лог команд
-git clone
-cd LR6
-git pull
-git reflog --all
-git log -p
-git branch -r
-git checkout report
-git checkout master
-git merge report
-git branch -d report
-git diff
-git add file_1
-git commit -m "new information"
-git reset --hard HEAD
-git checkout -b report
-git add --all
-git commit -m "new information 2"
-git push --set-upstream origin report
-12. История коммитов
+11. Лог команд</br>
+git clone</br>
+cd LR6</br>
+git pull</br>
+git reflog --all</br>
+git log -p</br>
+git branch -r</br>
+git checkout report</br>
+git checkout master</br>
+git merge report</br>
+git branch -d report</br>
+git diff</br>
+git add file_1</br>
+git commit -m "new information"</br>
+git reset --hard HEAD</br>
+git checkout -b report</br>
+git add --all</br>
+git commit -m "new information 2"</br>
+git push --set-upstream origin report</br>
+12. История коммитов</br>
 commit 6749b6f88bffce933870837313b10cedb6322298 (HEAD -> report, origin/report)
 Author: Anastaseva V.N. 4016 <anval-22@mail.ru>
 Date:   Thu Nov 18 19:10:53 2021 +0300
