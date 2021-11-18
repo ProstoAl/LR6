@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/94538589/142440031-31fedaf3-2bcf-4d23-992b-9191bab795e0.png)
 ![image](https://user-images.githubusercontent.com/94538589/142440081-869ffc66-8bf1-4dc9-9c24-b6483a5c57e2.png)
 7. Делаем изменения в файле и коммитим их.
-![image](https://user-images.githubusercontent.com/94538589/142440500-99c23f58-0778-40e4-8fd3-f0b718509144.png)
+![image](https://user-images.githubusercontent.com/94538589/142452116-8336bb83-fc11-4127-8882-48f63e768b88.png)
 8. Делаем "хард" коммит.
 ![image](https://user-images.githubusercontent.com/94538589/142440617-d8220895-b520-4a09-afae-2705658b938b.png)
 9. Создаём ветку для отчёта.
