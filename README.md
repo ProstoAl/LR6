@@ -21,4 +21,70 @@
 ![image](https://user-images.githubusercontent.com/94538589/142440720-5387734c-1ce6-4603-bebf-12ca1e69d669.png)
 10. Загружаем ветку в удалённый репозиторий.
 ![image](https://user-images.githubusercontent.com/94538589/142440887-6a105243-98c6-4a65-9679-a9a3f6dc9969.png)
+11. Лог команд
+git clone
+cd LR6
+git pull
+git reflog --all
+git log -p
+git branch -r
+git checkout report
+git checkout master
+git merge report
+git branch -d report
+git diff
+git add file_1
+git commit -m "new information"
+git reset --hard HEAD
+git checkout -b report
+git add --all
+git commit -m "new information 2"
+git push --set-upstream origin report
+12. История коммитов
+commit 61fc16f2452e5934684d232a5ef54f3bc671d848 (HEAD -> report, origin/report)
+Merge: 3c8f3d5 98501fd
+Author: Anastaseva V.N. 4016 <anval-22@mail.ru>
+Date:   Thu Nov 18 18:28:04 2021 +0300
+
+    Merge branch 'report' of https://github.com/ProstoAl/LR6 into report
+
+commit 3c8f3d5f1302528f3d791319640bb5758c42718a
+Author: Anastaseva V.N. 4016 <anval-22@mail.ru>
+Date:   Thu Nov 18 18:25:23 2021 +0300
+
+    new information 2
+
+commit 98501fd0ba246df4e53a8535b5feed42656c9535
+Author: ProstoAl <94538589+ProstoAl@users.noreply.github.com>
+Date:   Thu Nov 18 18:11:36 2021 +0300
+
+    Update README.md
+
+commit 98938ad80625e3e98e0f5b2cb6e6a3fa0d1d2bc9 (master)
+Author: Anastaseva V.N. 4016 <anval-22@mail.ru>
+Date:   Thu Nov 18 17:38:25 2021 +0300
+
+    new information
+
+commit e74b1fbb5b0c2d479f6d19aab6e42f10f1d8a5ce
+Merge: 382c1ef 3e7458d
+Author: Anastaseva V.N. 4016 <anval-22@mail.ru>
+Date:   Thu Nov 18 16:41:41 2021 +0300
+
+    new informatoin
+
+commit 382c1ef8e93e99182fe6add8a0592ddfc2f9cbed
+Author: ProstoAl <94538589+ProstoAl@users.noreply.github.com>
+Date:   Thu Nov 18 15:05:44 2021 +0300
+
+    Create file_1
+
+commit e0d8ef1328257dde5bb3f665a484db63e749db96
+Author: ProstoAl <94538589+ProstoAl@users.noreply.github.com>
+Date:   Wed Nov 17 22:29:34 2021 +0300
+
+    Update README.md
+
+
+
 
