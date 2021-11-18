@@ -1,71 +1,24 @@
-<<<<<<< HEAD
 # LR6
 Лабораторная работа №6
 1. Клонируем репозиторий на компьютер 
 ![image](https://user-images.githubusercontent.com/94538589/142269402-d5dd6fac-4983-470e-9961-14c6f6ccbf4a.png)
-=======
-# Лабораторная работа №6
-После регистрации на GitHub и установки Git созданием копию выданного репозитория в личное хранилище (Значек Fork)
-Для начала работы необходимо настроить клиент git введя имя пользователя и командами `email git config --global user.name <username>` и `git config --global user.email <email>`
+2. На сайте GitHub создаем файл file_1 и подтяшиваем изменения на локальное устройство.
+![image](https://user-images.githubusercontent.com/94538589/142412629-7b1b8940-5e96-4d26-ac53-eda72229f985.png)
+3. Получем историю операций для каждой ветки
+![image](https://user-images.githubusercontent.com/94538589/142413165-3a76e8bf-f549-43b7-b330-05e666b28898.png)
+4. Смотрим последние изменения 
+![image](https://user-images.githubusercontent.com/94538589/142414011-a626d70f-dadb-4565-95fa-52863b4a9993.png)
+5. Смотрим доступные ветки, переходим в одну из них
+![image](https://user-images.githubusercontent.com/94538589/142439771-98fd9d03-4788-4a46-a1ff-4e714135d53e.png)
+6. Возвращаемся обратно в ветку master, сливаем ее с выбранной веткой(решая конфликт) и удаляем уже ненужную ветку
+![image](https://user-images.githubusercontent.com/94538589/142440031-31fedaf3-2bcf-4d23-992b-9191bab795e0.png)
+![image](https://user-images.githubusercontent.com/94538589/142440081-869ffc66-8bf1-4dc9-9c24-b6483a5c57e2.png)
+7. Делаем изменения в файле и коммитим их
+![image](https://user-images.githubusercontent.com/94538589/142440500-99c23f58-0778-40e4-8fd3-f0b718509144.png)
+8. Делаем "хард" коммит
+![image](https://user-images.githubusercontent.com/94538589/142440617-d8220895-b520-4a09-afae-2705658b938b.png)
+9. Создаём ветку для отчёта
+![image](https://user-images.githubusercontent.com/94538589/142440720-5387734c-1ce6-4603-bebf-12ca1e69d669.png)
+10. Загружаем ветку в удалённый репозиторий
+![image](https://user-images.githubusercontent.com/94538589/142440887-6a105243-98c6-4a65-9679-a9a3f6dc9969.png)
 
-![image](Screenshots/git_config.png)
-
-Затем необходимо клонировать удаленный репозиторий на компьютер командой `git clone <url>`
-
-![image](Screenshots/git_clone.png)
-
-Добавляем файл через интерфейс GitHub
-
-![image](Screenshots/added_file_github_interface.png)
-
-Подтягиваем изменения из удаленного репозитория командой `git pull`
-
-![image](Screenshots/git_pull.png)
-
-Получаем историю операций из каждой ветки командой `git log`. Переключение веток с помощью `git checkout`
-
-![image](Screenshots/git_log_master.png)
-![image](Screenshots/git_log_branch1.png)
-
-Выполняем слияние в ветку master командой `git merge <branch>`
-
-![image](Screenshots/git_merge.png)
-
-Происхдит конфликт, для решения вручную меняем содержимое файла
-
-![image](Screenshots/before_merge.png)
-![image](Screenshots/after_merge.png)
-
-Для индексирования файла используем `git add` и комита `git commit -m <message>` 
-
-![image](Screenshots/commit_merge.png)
-
-Затем необходимо удалить побочную ветку из локального репозитория `git branch -d <branch>` и удаленного репозитория `git push <url> --delete <branch>`
-
-![image](Screenshots/delete_branch1.png)
-
-Делаем несколько изменений и фиксируем их с помощью `git add` и `git commit`
-
-![image](Screenshots/git_new_commits.png)
-
-Необходимо сделать хард ресет коммита, для этого я сделал специальный коммит, открыт лог и командой `git reset --hard <commit>` откатился до предыдущей версии
-
-![image](Screenshots/git_hard_reset.png)
-
-Создал новую ветку для отчета и сразу переключился на нее `git checkout -b report` 
-
-![image](Screenshots/git_hard_reset.png)
-
-Затем принялся писать отчет в файле README.md, использую Markdown синтаксис.  
-
-![image](Screenshots/new_branch_report.png)
-
-Получаем итоговую историю операций с помощью `git log`
-
-![image](Screenshots/last_log.png)
-
-После окончания написания отчета произвел команды `git add *` и `git commit -m "<text>"` и отправил изменения в удаленный репозиторий `git push <rep> <branch>`
-
-
-
->>>>>>> report
