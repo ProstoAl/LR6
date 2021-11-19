@@ -22,7 +22,7 @@
 10. Загружаем ветку в удалённый репозиторий.</br>
 ![image](https://user-images.githubusercontent.com/94538589/142440887-6a105243-98c6-4a65-9679-a9a3f6dc9969.png)
 11. Лог команд</br>
-git clone</br>
+git clone https://github.com/ProstoAl/LR6/tree/master</br>
 cd LR6</br>
 git pull</br>
 git reflog --all</br>
@@ -34,7 +34,7 @@ git merge report</br>
 git branch -d report</br>
 git diff</br>
 git add file_1</br>
-git commit -m "new information"</br>
+git commit -m "Изменение документа"</br>
 git reset --hard HEAD</br>
 git checkout -b report</br>
 git add --all</br>
